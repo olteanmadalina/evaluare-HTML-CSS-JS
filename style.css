@@ -1,0 +1,50 @@
+.white-text { color: #00CC99;
+}
+.imagine { 
+border-radius: 10px;
+opacity: 0.9;
+border: 2px solid turquoise;
+}
+body {
+    background-image: url('fundal.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Adăugați această linie */
+}
+table, th, td {
+  border: 2px solid turquoise;
+  border-collapse: collapse;
+}
+h5,table, p, ol { color: purple;}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+.mySlides {
+    display: none;
+}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
